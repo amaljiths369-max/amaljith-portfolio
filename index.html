@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Amaljith S — Digital Marketing Executive specialising in performance marketing, Meta Ads, Google Ads, SEO, content strategy and AI-powered creative production.">
+<meta name="theme-color" content="#090b0e">
+<title>Amaljith S — Digital Marketing Executive</title>
+<style>
+:root{--bg:#090b0e;--panel:#11151a;--panel2:#171d23;--text:#f3f0e8;--muted:#a4adb5;--cyan:#00c5df;--line:rgba(255,255,255,.12);--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}img{max-width:100%;display:block}button{font:inherit}
+.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}.eyebrow{color:var(--cyan);font-size:.76rem;letter-spacing:.19em;text-transform:uppercase;font-weight:800}.section{padding:104px 0;border-top:1px solid var(--line)}h1,h2,h3,p{margin-top:0}h2{font-size:clamp(2rem,4vw,3.5rem);line-height:1.05;letter-spacing:-.045em;margin:12px 0 22px}h2 span,.accent{color:var(--cyan)}.lead{color:var(--muted);font-size:1.08rem;max-width:690px}.topbar{position:sticky;top:0;z-index:20;background:rgba(9,11,14,.88);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:900;letter-spacing:.06em;font-size:1rem}.brand b{color:var(--cyan)}.navlinks{display:flex;gap:26px;color:#c6cbd0;font-size:.86rem}.navlinks a:hover{color:var(--cyan)}.menu{display:none;background:none;color:white;border:1px solid var(--line);border-radius:8px;padding:8px 12px}
+.hero{min-height:680px;display:grid;align-items:center;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}.hero:before{content:"";position:absolute;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(0,197,223,.15),transparent 68%);right:-130px;top:30px;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center;padding:86px 0}.hero h1{font-size:clamp(3.2rem,7vw,6.7rem);line-height:.92;letter-spacing:-.075em;margin:18px 0 26px}.hero h1 span{display:block;color:var(--cyan)}.hero-copy{font-size:1.1rem;color:var(--muted);max-width:570px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:5px;font-weight:800;font-size:.88rem;border:1px solid var(--cyan);background:var(--cyan);color:#001217;transition:.2s}.btn:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(0,197,223,.18)}.btn.ghost{background:transparent;color:var(--text);border-color:var(--line)}.hero-photo{position:relative;max-width:430px;justify-self:end}.hero-photo img{width:100%;border-radius:8px;filter:saturate(.82);border:1px solid rgba(255,255,255,.18)}.photo-label{position:absolute;bottom:18px;left:-22px;background:var(--cyan);color:#061014;padding:13px 17px;font-weight:900;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:-1px}.metric{background:var(--bg);padding:28px 24px}.metric strong{display:block;font-size:2.2rem;line-height:1;color:var(--cyan);letter-spacing:-.05em}.metric small{display:block;color:var(--muted);margin-top:10px;font-size:.78rem}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}.about-note{border-left:2px solid var(--cyan);padding:5px 0 5px 24px;color:#c4cbd0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:38px}.card{background:var(--panel);border:1px solid var(--line);padding:25px;border-radius:7px}.card .num{color:var(--cyan);font-size:.75rem;font-weight:900;letter-spacing:.15em}.card h3{font-size:1.15rem;margin:15px 0 8px}.card p{color:var(--muted);font-size:.92rem;margin:0}
+.timeline{display:grid;gap:16px;margin-top:38px}.job{display:grid;grid-template-columns:190px 1fr;gap:30px;padding:27px 0;border-top:1px solid var(--line)}.job time{color:var(--cyan);font-size:.82rem;font-weight:800}.job h3{font-size:1.2rem;margin:0 0 4px}.job .company{color:var(--muted);font-size:.9rem}.job ul{color:#c4cbd0;margin:13px 0 0;padding-left:18px}.job li{margin:6px 0}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.tag{border:1px solid var(--line);background:var(--panel);padding:9px 13px;border-radius:3px;color:#dce1e4;font-size:.86rem}.toolgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:24px}.tool{padding:15px;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-size:.86rem}
+.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:40px}.project{background:var(--panel);border:1px solid var(--line);border-radius:7px;overflow:hidden}.project img{width:100%;aspect-ratio:16/9;object-fit:cover;object-position:top;transition:transform .35s}.project:hover img{transform:scale(1.025)}.project-info{padding:20px 22px}.project-info h3{margin:0 0 6px;font-size:1.12rem}.project-info p{color:var(--muted);font-size:.88rem;margin:0}.project.wide{grid-column:span 2}.project.wide img{aspect-ratio:16/7}
+.creative-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:36px}.creative-grid img{width:100%;border:1px solid var(--line);border-radius:5px}
+.cert-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:32px}.cert{padding:20px;background:var(--panel);border:1px solid var(--line);min-height:120px}.cert b{display:block;margin-bottom:8px}.cert span{color:var(--muted);font-size:.85rem}
+.contact{background:linear-gradient(135deg,rgba(0,197,223,.10),transparent 50%)}.contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}.contact-list{display:grid;gap:13px}.contact-item{padding:16px 18px;background:var(--panel);border:1px solid var(--line);border-radius:5px}.contact-item small{display:block;color:var(--muted);font-size:.72rem;letter-spacing:.12em;text-transform:uppercase}.contact-item b{display:block;margin-top:4px;overflow-wrap:anywhere}
+footer{padding:25px 0;color:var(--muted);font-size:.8rem;border-top:1px solid var(--line)}footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+@media(max-width:800px){.navlinks{display:none;position:absolute;top:75px;left:0;right:0;padding:18px 22px;background:#0d1115;border-bottom:1px solid var(--line);flex-direction:column;gap:16px}.navlinks.open{display:flex}.menu{display:block}.hero-grid,.two-col,.contact-grid{grid-template-columns:1fr}.hero-grid{padding:65px 0;gap:38px}.hero-photo{justify-self:start;max-width:330px;margin-left:20px}.metrics{grid-template-columns:repeat(2,1fr)}.cards{grid-template-columns:1fr 1fr}.toolgrid{grid-template-columns:repeat(2,1fr)}.cert-grid{grid-template-columns:repeat(2,1fr)}.job{grid-template-columns:1fr;gap:8px}.section{padding:76px 0}}
+@media(max-width:520px){.wrap{width:min(var(--max),calc(100% - 32px))}.hero h1{font-size:3.4rem}.cards,.project-grid,.creative-grid{grid-template-columns:1fr}.project.wide{grid-column:auto}.project.wide img{aspect-ratio:16/9}.metrics .metric{padding:22px 16px}.metric strong{font-size:1.8rem}.cert-grid{grid-template-columns:1fr 1fr}.section{padding:65px 0}}
+</style>
+</head>
+<body>
+<header class="topbar"><div class="wrap nav">
+<a class="brand" href="#home">AMALJITH <b>S.</b></a>
+<nav class="navlinks" id="navlinks"><a href="#about">About</a><a href="#services">Expertise</a><a href="#experience">Experience</a><a href="#work">Projects</a><a href="#creatives">Creatives</a><a href="#contact">Contact</a></nav>
+<button class="menu" aria-label="Toggle navigation" onclick="document.getElementById('navlinks').classList.toggle('open')">Menu</button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div><div class="eyebrow">Digital Marketing Executive · Dubai, UAE</div>
+<h1>AMALJITH S<span>THE DIGITAL<br>MARKETER.</span></h1>
+<p class="hero-copy">I turn audience insights into measurable growth through performance marketing, search visibility and creative content that moves people to act.</p>
+<div class="actions"><a class="btn" href="#work">Explore my work ↘</a><a class="btn ghost" href="Amaljith_S_CV.pdf" download>Download CV ↓</a></div>
+</div>
+<div class="hero-photo"><img src="assets/portfolio-01.jpg" alt="Amaljith S portfolio cover"><div class="photo-label">Strategy · Performance · Creativity</div></div>
+</div></section>
+<div class="wrap"><div class="metrics">
+<div class="metric"><strong>₹50L+</strong><small>Business generated through Meta Ads</small></div>
+<div class="metric"><strong>₹54</strong><small>Cost per click achieved</small></div>
+<div class="metric"><strong>90+</strong><small>Google Ads optimisation score</small></div>
+<div class="metric"><strong>30+</strong><small>Monthly leads in Google Ads role</small></div>
+</div></div>
+
+<section class="section" id="about"><div class="wrap two-col">
+<div><div class="eyebrow">A little about me</div><h2>Marketing meets <span>measurable impact.</span></h2>
+<p class="lead">I'm Amaljith, a performance-focused Digital Marketing Executive with hands-on experience across Meta Ads, Google Ads, SEO and social media marketing.</p>
+<p class="lead">I began my career in accounting, where I developed a foundation in data analysis and attention to detail. I then moved into digital marketing to combine analytical thinking with creativity, strategy and continuous learning.</p></div>
+<div class="about-note"><p>My approach is built around understanding the audience, identifying the right opportunity, testing with purpose and optimising campaigns around meaningful outcomes.</p><p>Alongside campaign management, I work on content research, ad scripts, creative direction and AI-assisted video production.</p><p class="accent"><b>Based in Dubai, UAE · Open to digital marketing opportunities.</b></p></div>
+</div></section>
+
+<section class="section" id="services"><div class="wrap"><div class="eyebrow">What I do</div><h2>Let me do <span>this for you.</span></h2><p class="lead">A practical mix of performance, visibility and creative execution to support business growth.</p>
+<div class="cards">
+<div class="card"><span class="num">01 / SEARCH</span><h3>Search Engine Optimisation</h3><p>Keyword research, on-page optimisation, technical SEO, local SEO and website audits.</p></div>
+<div class="card"><span class="num">02 / SOCIAL</span><h3>Social Media Marketing</h3><p>Content planning, social media calendars, platform management and engagement growth.</p></div>
+<div class="card"><span class="num">03 / PAID</span><h3>Paid Advertising</h3><p>Meta Ads and Google Ads campaign setup, audience targeting, optimisation and reporting.</p></div>
+<div class="card"><span class="num">04 / CONTENT</span><h3>Content Marketing</h3><p>Content ideas, ad scripts, copywriting and content strategy aligned with campaign goals.</p></div>
+<div class="card"><span class="num">05 / LOCAL</span><h3>Local SEO</h3><p>Google Business Profile management and local search visibility improvements.</p></div>
+<div class="card"><span class="num">06 / AI</span><h3>AI Creative Production</h3><p>AI-assisted video creation, prompt development and creative content production.</p></div>
+</div></div></section>
+
+<section class="section" id="experience"><div class="wrap"><div class="eyebrow">Career journey</div><h2>Work <span>experience.</span></h2>
+<div class="timeline">
+<article class="job"><time>May 2026 — Nov 2026</time><div><h3>Junior Digital Marketer</h3><div class="company">Golden Qube · Kochi, India</div><ul><li>Generated ₹50 lakh+ in business through Meta Ads at ₹54 CPC; managed Google Ads campaigns with a 90+ optimisation score.</li><li>Managed Google Business Profile listings to strengthen local search visibility.</li><li>Coordinated with design, development and content teams, guiding website structure, content and SEO requirements.</li><li>Wrote ad scripts, directed videos and created AI videos through prompt refinement for client campaigns and social content.</li><li>Delivered content research and SEO studies for a US client strategy.</li></ul></div></article>
+<article class="job"><time>Aug 2025 — Feb 2026</time><div><h3>Digital Marketing Intern</h3><div class="company">ANAD Digital Marketing Agency · Dubai, UAE</div><ul><li>Planned and optimised Google Ads Search, Display and Performance Max campaigns, generating 30+ monthly leads.</li><li>Reduced CPC by around 15% through continuous campaign optimisation.</li><li>Executed SEO and Meta Ads strategies, increasing organic traffic by 20–30% and social engagement by 30%.</li></ul></div></article>
+<article class="job"><time>Aug 2024 — Aug 2025</time><div><h3>Accountant Cum Admin</h3><div class="company">Myson Group of Companies (Krishna Industries) · Kochi, India</div><ul><li>Managed customer quotations and product estimation processes.</li><li>Processed sales orders and job work orders using Tally ERP.</li></ul></div></article>
+<article class="job"><time>Sep 2022 — Sep 2023</time><div><h3>Cost Accountant Trainee</h3><div class="company">Travancore Cochin Chemicals Ltd · Kochi, India</div><ul><li>Prepared MIS reports, cost analysis reports and stock statements.</li><li>Supported annual budgeting and financial closing activities.</li></ul></div></article>
+</div></div></section>
+
+<section class="section"><div class="wrap two-col"><div><div class="eyebrow">Capabilities</div><h2>Skills & <span>toolkit.</span></h2><p class="lead">A blend of campaign platforms, analytics, SEO research and creative production tools.</p>
+<div class="skills"><span class="tag">Meta Ads</span><span class="tag">Google Ads</span><span class="tag">SEO</span><span class="tag">Social Media Marketing</span><span class="tag">AI Video Creation</span><span class="tag">Content Creation</span><span class="tag">Script Writing</span><span class="tag">Keyword Research</span><span class="tag">Competitor Analysis</span><span class="tag">Prompt Creation</span><span class="tag">Content Strategy</span></div></div>
+<div><div class="eyebrow">Platforms & software</div><div class="toolgrid"><div class="tool">Meta Ads Manager</div><div class="tool">Meta Business Suite</div><div class="tool">Google Ads</div><div class="tool">Google Keyword Planner</div><div class="tool">Google Search Console</div><div class="tool">GA4</div><div class="tool">Semrush</div><div class="tool">Ahrefs</div><div class="tool">Canva</div><div class="tool">CapCut</div><div class="tool">Google Flow</div><div class="tool">Magnific</div><div class="tool">Web.dev</div><div class="tool">Moz</div><div class="tool">HubSpot</div><div class="tool">MS Excel & Word</div></div></div></div></section>
+
+<section class="section" id="work"><div class="wrap"><div class="eyebrow">Selected work</div><h2>Projects & <span>campaigns.</span></h2><p class="lead">A selection of practical work from SEO research, website audits, social planning and paid campaign execution. Visuals are taken from my submitted portfolio.</p>
+<div class="project-grid">
+<article class="project"><img src="assets/portfolio-09.jpg" alt="Keyword research project samples"><div class="project-info"><h3>Keyword Research</h3><p>Keyword research work for multiple business and brand projects.</p></div></article>
+<article class="project"><img src="assets/portfolio-10.jpg" alt="SEO on-page and off-page work and website audit"><div class="project-info"><h3>SEO Optimisation & Website Audit</h3><p>On-page and off-page activity for AIBI, alongside a website audit for Truesense.</p></div></article>
+<article class="project"><img src="assets/portfolio-11.jpg" alt="Social media calendar prepared"><div class="project-info"><h3>Social Media Calendar</h3><p>Social media calendar preparation and content scheduling work.</p></div></article>
+<article class="project"><img src="assets/portfolio-12.jpg" alt="Content ideas and planning"><div class="project-info"><h3>Content Ideas & Planning</h3><p>Content planning and idea development for AIBI.</p></div></article>
+<article class="project"><img src="assets/portfolio-13.jpg" alt="Google Ads campaign dashboard"><div class="project-info"><h3>Google Ads Campaign</h3><p>Google Ads campaign work for AIBI.</p></div></article>
+<article class="project"><img src="assets/portfolio-14.jpg" alt="Meta Ads campaign dashboard"><div class="project-info"><h3>Meta Ads Campaign</h3><p>Meta Ads campaign work for AIBI.</p></div></article>
+<article class="project wide"><img src="assets/portfolio-15.jpg" alt="Digital marketing blog and website content contribution"><div class="project-info"><h3>Blog Writing & Website Content</h3><p>Wrote a Medium blog on “Why digital marketing is trending” and contributed website content for a performance marketing course.</p></div></article>
+</div></div></section>
+
+<section class="section" id="creatives"><div class="wrap"><div class="eyebrow">Creative production</div><h2>Campaign <span>creatives.</span></h2><p class="lead">Ad and social creative samples created for digital marketing campaigns.</p>
+<div class="creative-grid"><img src="assets/portfolio-16.jpg" alt="Digital marketing campaign creative samples"><img src="assets/portfolio-17.jpg" alt="Social media and recruitment creative samples"></div></div></section>
+
+<section class="section"><div class="wrap"><div class="eyebrow">Learning & development</div><h2>Education & <span>certifications.</span></h2>
+<div class="two-col"><div><h3>Education</h3><div class="timeline">
+<article class="job"><time>2026</time><div><h3>International Diploma in AI-Integrated Digital Marketing Management</h3><div class="company">AIBI Campus</div></div></article>
+<article class="job"><time>2021 — 2023</time><div><h3>Master of Commerce (M.Com), International Business Operations</h3><div class="company">IGNOU</div></div></article>
+<article class="job"><time>2017 — 2020</time><div><h3>Bachelor of Commerce (B.Com), Computer Application</h3><div class="company">SNGIST, Ernakulam</div></div></article>
+</div></div><div><h3>Certifications</h3><div class="cert-grid">
+<div class="cert"><b>Google</b><span>Fundamentals of Digital Marketing</span></div>
+<div class="cert"><b>LinkedIn</b><span>Digital Marketing Foundations</span></div>
+<div class="cert"><b>Semrush</b><span>SEO Essentials</span></div>
+<div class="cert"><b>HubSpot Academy</b><span>Content Marketing Certification</span></div>
+</div><h3 style="margin-top:34px">Languages</h3><p class="lead">Malayalam · English · Tamil · Hindi</p></div></div></div></section>
+
+<section class="section contact" id="contact"><div class="wrap contact-grid"><div><div class="eyebrow">Let's connect</div><h2>Have a project or<br><span>opportunity in mind?</span></h2><p class="lead">I'm open to discussing digital marketing opportunities and ways to build measurable growth.</p><div class="actions"><a class="btn" href="mailto:amaljiths369@gmail.com">Email me ↗</a><a class="btn ghost" href="Amaljith_S_CV.pdf" download>Download CV ↓</a></div></div>
+<div class="contact-list"><a class="contact-item" href="mailto:amaljiths369@gmail.com"><small>Email</small><b>amaljiths369@gmail.com</b></a><a class="contact-item" href="tel:+971566191341"><small>Phone</small><b>+971 56 619 1341</b></a><a class="contact-item" href="https://wa.me/971566191341" target="_blank" rel="noopener"><small>WhatsApp</small><b>Message me ↗</b></a><div class="contact-item"><small>Location</small><b>Dubai, UAE</b></div></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© <span id="year"></span> Amaljith S. All rights reserved.</span><span>Digital Marketing · Performance · Creativity</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();document.querySelectorAll('.navlinks a').forEach(a=>a.addEventListener('click',()=>document.getElementById('navlinks').classList.remove('open')));</script>
+</body></html>
